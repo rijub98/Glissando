@@ -1,10 +1,17 @@
 # Glissando
 
 ------------------Things we used--------------------------
-Xampp, php, html, js
+1. Xampp
+2. PHP
+3. HTML and CSS
+4. JS
 
 ------------------Not implemented-------------------------
-Playlists, Views, Liked, Followers, Comments, etc
+1. Playlists
+2. Views
+3. Likes
+4. Followers
+5. Comments, etc
 
 ------------------Needs to improve------------------------
 1. Responsive

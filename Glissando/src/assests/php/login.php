@@ -1,6 +1,6 @@
 <?php 
-	session_start();
-	include 'connect.php';
+	session_start();	// starts the session
+	include 'connect.php';	// including it mandatory unless your planning to do the connection here again
 
 	$username=$_POST['username'];
 	$password=$_POST['password'];

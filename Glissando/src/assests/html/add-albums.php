@@ -79,6 +79,7 @@
             <!-----------------------------------SIDE MENU ENDS------------------------------------------------>
             <h2>Add Albums</h2>
             <div class="grid-container">
+                <!-----------------------------------FORM STARTS----------------------------------------------->
                 <form action="../php/add-albums.php" method="POST" enctype="multipart/form-data">
                     <div class="row">
                         <div class="col-30">
@@ -141,6 +142,7 @@
                         <input type="submit" name="upload" value="Create Album">
                     </div>
                 </form>
+                <!-----------------------------------FORM ENDS------------------------------------------------->
             </div>
         </div>
         <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>

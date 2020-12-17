@@ -1,6 +1,7 @@
 <?php
     session_start();
 
+    //  It checks the status and displays it
     if (isset($_GET['status'])) {
         $sta = $_GET['status'];
         echo "<script type='text/javascript'>alert('$sta');</script>";
@@ -33,8 +34,8 @@
                     </div>
                     <input type="submit" value="Login" class="btn solid" />
                 </form>
-                <!---------------------------LOGIN ENDS-------------------------------------->
-
+                <!---------------------------LOGIN ENDS--------------------------------------->
+                <!---------------------------FORM STARTS-------------------------------------->
                 <form action="../php/register.php" method="POST" class="sign-up-form">
                     <h2 class="title">Sign up</h2>
                     <div class="input-field">
@@ -59,6 +60,7 @@
                     </div>
                         <input type="submit" class="btn" value="Sign up" />
                 </form>
+                <!---------------------------FORM ENDS--------------------------------------->
             </div>
         </div>
 

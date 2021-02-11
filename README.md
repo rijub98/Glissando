@@ -14,7 +14,7 @@
 5. Comments, etc
 
 ------------------Needs to improve------------------------
-1. Responsive
+1. Complete Responsive
 2. Pages for each artists, albums
 3. Music player
 4. Profile Table
